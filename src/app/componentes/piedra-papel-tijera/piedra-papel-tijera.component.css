@@ -1,0 +1,30 @@
+html, body{
+  height: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.fondo{
+background-color: aquamarine;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+
+
+#encima:before{
+  content: '';
+  background: url(https://i.imgur.com/dJLNhFN.jpg) no-repeat left top;
+  /*background: url(https://s22.postimg.org/urrt8jfq9/d_JLNh_FN.jpg) no-repeat left top;*/
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+

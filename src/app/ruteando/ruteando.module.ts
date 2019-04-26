@@ -1,3 +1,4 @@
+import { JuegoPiedraPapelTijera } from './../clases/juego-piedra-papel-tijera';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 // importo del module principal
@@ -21,7 +22,7 @@ import { QuienSoyComponent } from '../componentes/quien-soy/quien-soy.component'
 import { ListadoDePaisesComponent } from '../componentes/listado-de-paises/listado-de-paises.component'
 import { MapaDeGoogleComponent } from '../componentes/mapa-de-google/mapa-de-google.component'
 import { JugadoresListadoComponent } from '../componentes/jugadores-listado/jugadores-listado.component';
-
+import {PiedraPapelTijeraComponent } from '../componentes/piedra-papel-tijera/piedra-papel-tijera.component';
 
 // declaro donde quiero que se dirija
 const MiRuteo = [
@@ -41,6 +42,7 @@ children:
      [{path: '' , component: MenuCardComponent},
      {path: 'Adivina' , component: AdivinaElNumeroComponent},
       {path: 'AdivinaMasListado' , component: AdivinaMasListadoComponent},
+      {path: 'PiedraPapelTijera' , component: PiedraPapelTijeraComponent},
       {path: 'AgilidadaMasListado' , component: AgilidadMasListadoComponent},
       {path: 'Agilidad' , component: AgilidadAritmeticaComponent}]
 },
